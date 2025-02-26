@@ -6,3 +6,6 @@ clean:
 
 run:
 	./main
+
+test:
+	./test.sh

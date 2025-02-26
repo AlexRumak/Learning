@@ -1,11 +1,11 @@
 
-FILE=./main
+FILE=./challenge3
 if [ -f $FILE ]; then
   echo "Testing...."
 else  
-  echo "main not compiled, run make"
+  echo "challenge3 not compiled, run make"
 fi
 
 # Test One
-$output="$(./main ADD Hello ADD World! PRINT)"
+$output="$(./challenge3 ADD Hello ADD World! PRINT)"
 echo $output

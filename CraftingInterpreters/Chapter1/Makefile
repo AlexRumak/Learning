@@ -1,11 +1,11 @@
-main: main.c
-	gcc -o main main.c
+challenge3: challenge3.c
+	gcc -o challenge3 challenge3.c
 
 clean:
-	rm main
+	rm challenge3
 
 run:
-	./main
+	./challenge3
 
 test:
 	./test.sh

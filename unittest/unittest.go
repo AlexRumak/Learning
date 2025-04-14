@@ -8,8 +8,8 @@ import (
 )
 
 const helpstr = `
-unittest USAGE: unittest -i <input_file> -e <expected_string>
-`
+unittest USAGE: unittest -i <input_file> -e <expected_string>`
+
 const Reset = "\033[0m" 
 const Red = "\033[31m" 
 const Green = "\033[32m" 

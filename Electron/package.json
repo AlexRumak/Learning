@@ -1,0 +1,15 @@
+{
+  "name": "alexrumak_electron",
+  "version": "1.0.0",
+  "description": "This is a test electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Rumak",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^36.4.0"
+  }
+}
